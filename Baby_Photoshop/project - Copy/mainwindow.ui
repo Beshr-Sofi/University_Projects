@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1195</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+background-color:white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>-4</x>
+      <y>-30</y>
+      <width>1203</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>1050</x>
+       <y>50</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Load Image</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_22">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>50</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_24">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>50</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Clear</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_28">
+     <property name="geometry">
+      <rect>
+       <x>28</x>
+       <y>50</y>
+       <width>123</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+color: #E0AF72;
+font-weight: bold;
+font: 20pt &quot;Arial Black&quot;;
+border:0 solid none;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>BABY</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>117</x>
+       <y>52</y>
+       <width>220</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+color: white;
+font-weight: bold;
+font: 25pt &quot;Arial&quot;;
+border:0 solid none;
+}</string>
+     </property>
+     <property name="text">
+      <string>PHOTOSHOP</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>110</y>
+      <width>501</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox{
+border: 3px solid #30306E;
+border-radius:8;
+
+}
+QGroupBox::title{
+color:#E0AF72;
+subcontrol-position: top left;
+subcontrol-origin: margin;
+padding: -100 3px;
+}</string>
+    </property>
+    <property name="title">
+     <string>Filters</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_11">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_22">
+           <item>
+            <widget class="QLabel" name="label_24">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_27">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Purple</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_16">
+           <item>
+            <widget class="QLabel" name="label_19">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_16">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Oil Paint</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_17">
+           <item>
+            <widget class="QLabel" name="label_20">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_17">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Infrared</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_18">
+           <item>
+            <widget class="QLabel" name="label_21">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_18">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Sun Light</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_19">
+           <item>
+            <widget class="QLabel" name="label_22">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_19">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Black_ White</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_20">
+           <item>
+            <widget class="QLabel" name="label_23">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_20">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Gray Scale</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_21">
+           <item>
+            <widget class="QLabel" name="invertlabel">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_21">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Invert Image</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_15">
+           <item>
+            <widget class="QLabel" name="label_18">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_15">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Detect  Edges</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_14">
+           <item>
+            <widget class="QLabel" name="label_17">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_14">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Rotate</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <item>
+            <widget class="QLabel" name="label_16">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_13">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Flipping</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
+           <item>
+            <widget class="QLabel" name="label_15">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_12">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>blur</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QLabel" name="label_11">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_8">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Merge</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_10">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Darkness</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <item>
+            <widget class="QLabel" name="label_12">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_9">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Brightness</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Resize</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Crop</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Skew</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_7">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Movie</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Television</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <item>
+            <widget class="QLabel" name="label_10">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_7">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Noise</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QLabel" name="label_9">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_6">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+color:white;
+background-color:#E0AF72;
+font: 10pt &quot;Arial&quot;;
+border-radius:5;
+border: 2px solid #30306E;
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}</string>
+             </property>
+             <property name="text">
+              <string>Frame</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>611</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_23">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+border: 2px solid #30306E;
+font-weight: bold;
+font-size: 16px;
+color: #E0AF72;
+}</string>
+       </property>
+       <property name="text">
+        <string>           Please Load an Image</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+border: 2px solid #30306E;
+font-weight: bold;
+font-size: 16px;
+color: #E0AF72;
+}</string>
+       </property>
+       <property name="text">
+        <string>                Please apply filter</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>-150</x>
+      <y>619</y>
+      <width>1171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox{
+background-color:#30306E;
+border-radius: 30px;
+border:3px solid #E0AF72;
+
+
+}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mergesize">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Merge with resize</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mergenotsize">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Merge without resize</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fliphorizontal">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Flip horizontal</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="flipvertical">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Flip vertical</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rotate90">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Rotate 90 degree</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rotate180">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Rotate 180 degree</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rotate270">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Rotate 270 degree</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="simpleframe">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Simple frame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fancyframe">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Fancy frame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="blueframe">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Blue frame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="greenframe">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Green frame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="redframe">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Red frame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="redframe_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Red frame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="blueframe_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Blue frame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="greenframe_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>142</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Green frame</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="darkeffectslider">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>471</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #C89F6B;
+    height: 15px; 
+   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4949A8, stop:1 #21214D);
+    margin: 2px 0;
+	border-radius: 7px;
+}
+
+QSlider::handle:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #C89F6B, stop:1 #E0AF72);
+    width: 18px;
+    margin: -2px 0; 
+    border-radius: 6px;
+}</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="darkeffectbutton">
+    <property name="geometry">
+     <rect>
+      <x>523</x>
+      <y>460</y>
+      <width>75</width>
+      <height>79</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="skewbutton">
+    <property name="geometry">
+     <rect>
+      <x>514</x>
+      <y>460</y>
+      <width>75</width>
+      <height>79</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="skewslider">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>471</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #C89F6B;
+    height: 15px; 
+   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #30306E, stop:1 #6C6CF7);
+    margin: 2px 0;
+	border-radius: 7px;
+}
+
+QSlider::handle:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #C89F6B, stop:1 #E0AF72);
+    width: 18px;
+    margin: -2px 0; 
+    border-radius: 6px;
+}</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="crop1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>135</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>1 : 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="crop3">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>460</y>
+      <width>135</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>3 : 4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="crop2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>460</y>
+      <width>135</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>16 : 9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="crop4">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>460</y>
+      <width>135</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>3 : 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_23">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>540</y>
+      <width>108</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>120</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #E0AF72;
+font-weight: bold;
+font: 14pt &quot;Arial&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Before</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>371</x>
+      <y>120</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #E0AF72;
+font-weight: bold;
+font: 14pt &quot;Arial&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>After</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>116</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #E0AF72;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Please enter the width</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>159</x>
+      <y>480</y>
+      <width>178</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{
+background-color: white;
+border: 1px solid black;
+color: #EB3100;
+
+}</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>480</y>
+      <width>178</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{
+background-color: white;
+border: 1px solid black;
+color: #EB3100;
+
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>346</x>
+      <y>490</y>
+      <width>120</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #E0AF72;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Please enter the height</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lighteffectbutton">
+    <property name="geometry">
+     <rect>
+      <x>523</x>
+      <y>460</y>
+      <width>75</width>
+      <height>79</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:white;
+background-color:#30306E;
+font: 10pt &quot;Arial&quot;;
+border-radius:10;
+border: 2px solid #E0AF72;
+font-weight: bold
+}
+QPushButton:Hover{
+background-color:#AD8758;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="lighteffectslider">
+    <property name="geometry">
+     <rect>
+      <x>41</x>
+      <y>471</y>
+      <width>471</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #C89F6B;
+    height: 15px; 
+   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #30306E, stop:1 #6C6CF7);
+    margin: 2px 0;
+	border-radius: 7px;
+}
+
+QSlider::handle:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #C89F6B, stop:1 #E0AF72);
+    width: 18px;
+    margin: -2px 0; 
+    border-radius: 6px;
+}</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
